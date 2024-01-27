@@ -7,7 +7,7 @@ import (
 )
 
 // poem is being passed as function argument
-var poem = `
+var poemm = `
 those who do not feel this love
 pulling them like a river
 those who do not drink dawn
@@ -19,7 +19,7 @@ let them sleep
 
 func main() {
 	frequency := make(map[string]int)
-	for _, word := range strings.Fields(poem) {
+	for _, word := range strings.Fields(poemm) {
 		frequency[word]++
 	}
 
